@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: configservice-container
-        image: nguyenmanhdung/config-service:0.2.0
+        image: nguyenmanhdung/config-service:$CI_COMMIT_SHORT_SHA0.2.0
         ports:
         - containerPort: 8888
 
