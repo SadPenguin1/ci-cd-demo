@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: configservice-deploy  
-  namespace : ci-cd
+  namespace : ci-test
 labels:
     app: configservice-deploy
 spec:
@@ -26,7 +26,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: configservice-service
-  namespace : ci-cd
+  namespace : ci-test
 spec:
   type: NodePort
   selector:
