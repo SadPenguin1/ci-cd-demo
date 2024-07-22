@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: configservice-container
-        image: nguyenmanhdung/config-service:b2819ae6
+        image: nguyenmanhdung/config-service:a43caec5
         ports:
         - containerPort: 8888
 
